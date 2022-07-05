@@ -2,18 +2,18 @@ package com;
 
 import com.model.Manufacturer;
 import com.model.Phone;
-import com.model.Tablet;
 import com.service.PhoneService;
 import com.service.TabletService;
 import com.service.TelevisionService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 
 public class Main {
 
-    private static final Logger LOGGER = Logger.getGlobal();
+    private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
     private static final PhoneService PHONE_SERVICE = new PhoneService();
     private static final TabletService TABLET_SERVICE = new TabletService();
     private static final TelevisionService TELEVISION_SERVICE = new TelevisionService();
