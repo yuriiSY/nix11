@@ -5,8 +5,3 @@
 *.zip
 *.tar.gz
 *.rar
-
-.idea
-target
-
-*.txt
